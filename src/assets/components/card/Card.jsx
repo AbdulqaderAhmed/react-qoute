@@ -17,7 +17,7 @@ export default function Card() {
   }, []);
 
   return (
-    <div className="flex flex-col gap-3 justify-center items-center mt-16 md:mt-24 lg:mt-36">
+    <div className="flex flex-col gap-3 justify-center items-center pt-16 md:pt-24 lg:pt-36">
       <form onSubmit={handleSubmit} className="flex flex-row gap-3">
         <input
           type="text"
