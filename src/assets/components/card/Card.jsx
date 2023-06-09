@@ -17,11 +17,11 @@ export default function Card() {
   }, []);
 
   return (
-    <div className="flex flex-col gap-3 justify-center items-center pt-16 md:pt-24 lg:pt-36">
+    <div className="flex flex-col gap-3 justify-center items-center pt-28 md:pt-36 lg:pt-44">
       <form onSubmit={handleSubmit} className="flex flex-row gap-3">
         <input
           type="text"
-          placeholder="Life..."
+          placeholder="ex: Life..."
           className="border-2 border-slate-400 p-1 font-mono text-md rounded-md"
           onChange={(e) => setKeyword(e.target.value)}
         />
